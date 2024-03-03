@@ -1,0 +1,234 @@
+body {
+    padding: 1rem;
+}
+
+header {
+    background-image: url(Pictures/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    height: 20rem;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.left-section h1 {
+   margin-top: 1rem;
+   max-width: 800px;
+   font-size: 2.5rem;
+   line-height: 3rem;
+   color: white;
+   padding-left: 1rem;
+   padding-top: 0.1rem;
+}
+
+.left-section p {
+    margin-top: 1rem;
+    max-width: 600px;
+    color: white;
+    padding-left: 1rem;
+    padding-bottom: 0.1rem;
+}
+
+.right-section {
+    width: 100%;
+    max-width: 350px;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+
+
+.right-section form {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    height: 150px;
+ 
+}
+
+.btn {
+    background-color: grey;
+    opacity: .2;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+
+}
+
+.btn-form {
+    padding-left: 0.1rem;
+    padding-top: 0.1rem;
+}
+
+.travel-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.about-travel {
+   max-width: 600px
+}
+
+.about-blog {
+    max-width: 600px;
+}
+
+.travel-btn {
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 36px;
+    width: 150px;
+}
+
+.nature-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 2rem;
+    background-position: center center;
+}
+
+.nature-island {
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.nature-weather {  
+    padding-right: 5rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    gap: 2rem;
+}
+
+.nature-grid-Azores {
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 2rem;
+}
+
+.nature-island-image {
+    position: relative;
+    overflow: hidden;
+    gap: 1rem;
+}
+
+.island-image {
+    height: 810px;
+    width: 750px;
+    border-radius: 2rem;
+}
+
+.weather-image {
+    height: 350px;
+    width: 650px;
+    border-radius: 2rem;
+}
+
+.hike-image {
+    height: 350px;
+    width: 650px;
+    border-radius: 2rem;
+}
+
+.nature-grid-Azores h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    padding-left: 2rem;
+}
+
+.tbn-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nature-Azores-tbn {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nature-tbn {
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 36px;
+}
+
+.nature-nav {
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+
+.footer {
+    background-image: url(Pictures/sunrise.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    text-align: center;
+    height: 15rem;
+}
+
+.footer {
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer h1 {
+    color: white;
+    padding-top: 2rem;
+}
+
+.footer-tbn {
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 36px;
+    width: 120px;
+}
+
